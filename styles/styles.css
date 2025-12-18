@@ -51,6 +51,22 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+.splunk-dashboard{
+  width: 625px;
+  height: 407px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.splunk-download  {
+  width: 625px;
+  height: 407px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
 /* ===== Hero / Intro ===== */
 h1 {
   text-align: center;
@@ -168,10 +184,4 @@ a {
   transition: color 0.3s ease;
 }
 
-.splunk-dashboard{
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
+
