@@ -51,25 +51,18 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-.splunk-dashboard {
-  width: 100%;
-  max-width: 625px;   /* keeps desktop size */
-  height: auto;       /* maintains aspect ratio */
+/* ===== Project Screenshots ===== */
+.splunk-dashboard,
+.splunk-download {
+  width: 100%;       /* fill the container on mobile */
+  max-width: 625px;  /* keeps desktop size */
+  height: auto;      /* maintains aspect ratio */
   display: block;
-  margin: 20px auto;  /* centers image */
+  margin: 20px auto; /* centers image */
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-.splunk-download  {
-  width: 100%;
-  max-width: 625px;   /* keeps desktop size */
-  height: auto;       /* maintains aspect ratio */
-  display: block;
-  margin: 20px auto;  /* centers image */
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
 
 /* ===== Hero / Intro ===== */
 h1 {
