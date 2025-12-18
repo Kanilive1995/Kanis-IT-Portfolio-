@@ -167,3 +167,11 @@ a {
   text-decoration: none;
   transition: color 0.3s ease;
 }
+
+.splunk-dashboard{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
