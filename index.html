@@ -1,63 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<nav>
-  <a href="#projects">Projects</a> | 
-  <a href="#skills">Skills</a> | 
-  <a href="#contact">Contact</a>
-</nav>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kani Moore-Singleton's IT Portfolio</title>
-  <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kani Moore-Singleton | IT Portfolio</title>
+  <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
 <body>
-  <img
-    src="images/updatedheadshot.jpeg"
-    alt="Kani Moore-Singleton headshot"
-    class="profile-headshot"
-  />
 
-<h1>Kani's IT Portfolio</h1>
-<p class="contact-info">
+  <!-- ===== Navigation ===== -->
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-</p>
+      <h1>IT Portfolio</h1>
 
 
-<p>Hello, my name is Kani Moore-Singleton — an IT professional with experience across development, systems, and security fundamentals. I like my code like I like my coffee: clean, strong, and not likely to crash.</p>
+  <!-- ===== Hero / Intro Section ===== -->
+  <section id="hero">
+    <img
+      src="images/updatedheadshot.jpeg"
+      alt="Kani Moore-Singleton headshot"
+      class="profile-headshot"
+    />
 
-<p>This portfolio showcases some of my work in building, supporting, and securing technology — from writing maintainable code to troubleshooting systems, automating workflows, and solving issues before they escalate (or before users notice the panic in my eyes).</p>
 
-<p>I enjoy digging under the hood to understand how things work and making them run smoothly. Whether it’s development, system administration, or security analysis, my goal is the same: deliver reliable, well-documented solutions that make technology easier to use and easier to trust.</p>
+    <p>
+      Hello, my name is Kani Moore-Singleton — an IT professional with experience across
+      development, systems, and security fundamentals. I like my code like I like my coffee:
+      clean, strong, and not likely to crash.
+    </p>
 
-<section id="projects">
-  <h2>Projects</h2>
-</section>
+    <p>
+      This portfolio showcases my work building, supporting, and securing technology — from
+      writing maintainable code to troubleshooting systems, automating workflows, and solving
+      issues before they escalate (or before users notice).
+    </p>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <li>Systems & Tools: Microsoft Azure, Azure AD, Entra ID, Docker, Ping Identity (training), Okta (familiar), MongoDB, ServiceNow, Jira, Springboot, Postman, Splunk, Harness, CI/CD</li>
-  <li>Languages: JavaScript, SQL, HTML, CSS, Java, Python</li>
-  <li>Infrastructure: Windows OS, Linux (Beginner), MacOS, Network Configuration (VLANs, Subnets), Microsoft Active Directory,
-Microsoft Group Policy</li>
+    <p>
+      Whether it’s development, system administration, or security analysis, my goal is the
+      same: deliver reliable, well-documented solutions that make technology easier to use and
+      easier to trust.
+    </p>
 
-  <li>Specialties: Application & Device Integration, System Monitoring & Troubleshooting, Change Management, QA & Testing,
-Documentation, Disaster Recovery Planning,</li>
-  <li>Soft Skills: Collaboration, Problem Solving, Communication, Adaptability, Analytical Thinking</li>
-</ul>
-</section>
+    <p>
+      <a href="#contact"><strong>Contact Me ↓</strong></a>
+    </p>
+  </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <li><a href="mailto:Ladavemoore@gmail.com">Ladavemoore@gmail.com</a></li>
-  <li>Mobile: (717) 798-0178</li>
-  <li >LinkedIn: <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/">linkedin.com/in/kani-moore-singleton-3b4b6215b/</a></li>
-</ul>
-</section>
+  <!-- ===== Projects Section ===== -->
+  <section id="projects">
+    <h2>Projects & Labs</h2>
 
+    <!-- Example Project Card -->
+    <!-- Duplicate this block for each project -->
+    <div class="project">
+      <h3>Splunk Log Monitoring Dashboard</h3>
+      <p>
+        Built a Splunk dashboard to ingest and analyze system logs, identify error trends,
+        and surface potential security anomalies.
+      </p>
+      <p><strong>Tools:</strong> Splunk, Linux Logs, SIEM Concepts</p>
+    </div>
+
+    <!-- Placeholder -->
+    <div class="project">
+      <h3>Azure Active Directory Lab</h3>
+      <p>
+        Configured Azure AD users, groups, and role-based access controls in a lab
+        environment to simulate enterprise identity management.
+      </p>
+      <p><strong>Tools:</strong> Azure, Entra ID, Identity & Access Management</p>
+    </div>
+
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <h3>Systems & Tools</h3>
+    <ul>
+      <li>Microsoft Azure, Azure AD, Entra ID</li>
+      <li>Docker, CI/CD, Harness</li>
+      <li>Splunk, ServiceNow, Jira</li>
+      <li>MongoDB, Postman, Spring Boot</li>
+    </ul>
+
+    <h3>Languages</h3>
+    <ul>
+      <li>JavaScript, Python, Java</li>
+      <li>SQL, HTML, CSS</li>
+    </ul>
+
+    <h3>Infrastructure</h3>
+    <ul>
+      <li>Windows OS, macOS, Linux (Beginner)</li>
+      <li>Active Directory, Group Policy</li>
+      <li>Networking: VLANs, Subnets</li>
+    </ul>
+
+    <h3>Specialties</h3>
+    <ul>
+      <li>System Monitoring & Troubleshooting</li>
+      <li>Change Management & QA Testing</li>
+      <li>Documentation & Disaster Recovery Planning</li>
+    </ul>
+
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Collaboration & Communication</li>
+      <li>Problem Solving & Analytical Thinking</li>
+      <li>Adaptability</li>
+    </ul>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:Ladavemoore@gmail.com">Ladavemoore@gmail.com</a></li>
+      <li>Mobile: (717) 798-0178</li>
+      <li>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/" target="_blank">
+          linkedin.com/in/kani-moore-singleton
+        </a>
+      </li>
+    </ul>
+  </section>
 
 </body>
 </html>
