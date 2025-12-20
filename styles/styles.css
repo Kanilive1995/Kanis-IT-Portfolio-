@@ -1,4 +1,3 @@
-/* ===== Global Reset ===== */
 * {
   box-sizing: border-box;
 }
@@ -64,7 +63,7 @@ nav a:hover {
 }
 
 
-/* ===== Hero / Intro ===== */
+/* ===== Intro ===== */
 h1 {
   text-align: center;
   color: #2563eb;
